@@ -55,7 +55,7 @@ console.log(multiply(5, 12)); // Output: 60
 console.log(multiply(8));    // Output: 56
 
 // Task 8
-const greetParent = (name, age = 45) => "Hello"+name+", you are ${age} years old!";
+const greetParent = (name, age = 45) => "Hello"+name+", you are "+age +" years old!";
 
 let message = greetParent("Mom");
 console.log(message); // Output: Hello Mom, you are 30 years old!
@@ -84,5 +84,5 @@ const double = x => x * 2;
 const square = x => x * x;
 
 res = applyFunctions(double, square, 3);
-console.log(result); // Output: 36 
+console.log(res); // Output: 36 
 
